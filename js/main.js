@@ -3,7 +3,7 @@ const min = sec * 60;
 const hour = min * 60;
 const day = hour * 24;
 
-const end = new Date("Mar 21, 2022 12:00:00").getTime();
+const end = new Date("Feb 25, 2022 12:00:00").getTime();
 
 const int = setInterval(() => {
   const current = new Date().getTime();
@@ -30,4 +30,3 @@ const int = setInterval(() => {
     clearInterval(int);
   }
 }, 1000);
-
