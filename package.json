@@ -1,0 +1,15 @@
+{
+  "name": "coming-soon-countdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/feyton/coming-soon-countdown.git",
+  "author": "Fabrice Hafashimana <tumbafabruce@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
